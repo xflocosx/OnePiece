@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+
+}
+
+body {
+    font-family: 'DM Serif Display', serif;
+    background-color: antiquewhite;
+    color: #512600;
+}
+
+body::before{
+    content: "";
+    background-image: url(/src/imagens/background.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-position: center;
+    background-size: cover;
+    opacity: 0.6;
+    z-index: -1;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+}
+
+.escolha-de-piratas {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    min-height: calc(100vh - 300px);
+    justify-content: center;
+}
+
+.escolha-de-piratas .lista-de-piratas {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 18px;
+    background-color: rgba(239, 239, 240, 0.274);
+    justify-content: center;
+}
+
+.escolha-de-piratas .piratas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 950px;
+    gap: 20px;
+}
+
+.lista-de-piratas .pirata img {
+    max-width: 170px;
+    height: auto;
+    display: block;
+}
+
+
+.pirata-selecionado .pirata-grande {
+    max-width: 430px;
+    height: auto;
+}
+
+
+.escolha-de-piratas .piratas .titulo {
+    font-size: 20px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    border-bottom: 2px solid antiquewhite;
+    width: 100%;
+    text-align: center;
+}
+
+.lista-de-piratas .pirata.pirata.selecionado {
+    box-shadow: 0px 0px 24px 5px antiquewhite;
+}
+
+.pirata-selecionado {
+    text-align: center;
+    max-height: 530px;
+}
+
+.pirata-selecionado .nome-pirata{
+    border-bottom: antiquewhite;
+    letter-spacing: 10px;
+}
+
+.pirata-selecionado .descricao-pirata{
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    margin-top: 20px;
+    width: 420px;
+}
