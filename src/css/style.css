@@ -45,9 +45,14 @@ body::before{
 .escolha-de-piratas .lista-de-piratas {
     display: flex;
     flex-wrap: wrap;
-    gap: 18px;
-    background-color: rgba(239, 239, 240, 0.274);
+    gap: 10px;
     justify-content: center;
+}
+
+.escolha-de-piratas .lista-de-piratas .pirata {
+    background-color: antiquewhite;
+    padding: 5px;
+    border-radius: 5px; 
 }
 
 .escolha-de-piratas .piratas {
@@ -73,7 +78,7 @@ body::before{
 
 .escolha-de-piratas .piratas .titulo {
     font-size: 20px;
-    letter-spacing: 8px;
+    letter-spacing: 6px;
     text-transform: uppercase;
     border-bottom: 1px solid antiquewhite;
     text-align: center;
@@ -95,7 +100,7 @@ body::before{
         }
 
 .pirata-selecionado .nome-pirata{
-    letter-spacing: 10px; /* Deixar deste tamanho até ver como fica com os outros piratas*/
+    letter-spacing: 8px;
     background: rgba(250, 235, 215, 0.9);
     border: 2px solid #8B4513; /* Adicionando o mesmo padrão da descrição no título */
     border-radius: 10px;
