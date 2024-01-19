@@ -1,0 +1,16 @@
+@media (max-width:1400px){
+    .header .logo{
+        max-width: 350px;
+    }
+    .escolha-de-piratas{
+        flex-direction: column-reverse;
+      margin:0 auto;
+    }
+
+    .escolha-de-piratas .piratas{
+        margin-top: -15px;
+    }
+    .escolha-de-piratas .piratas .titulo{
+        font-size: 15px;
+    }
+}

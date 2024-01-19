@@ -11,7 +11,7 @@ ul {
 
 body {
     font-family: 'DM Serif Display', serif;
-    background-color: antiquewhite;
+    background-color: rgb(10, 68, 212);
     color: #512600;
 }
 
@@ -27,6 +27,7 @@ body::before{
     opacity: 0.6;
     z-index: -1;
 }
+
 
 .header {
     display: flex;
@@ -72,31 +73,38 @@ body::before{
 
 .escolha-de-piratas .piratas .titulo {
     font-size: 20px;
-    letter-spacing: 3px;
+    letter-spacing: 8px;
     text-transform: uppercase;
-    border-bottom: 2px solid antiquewhite;
+    border-bottom: 1px solid antiquewhite;
     width: 100%;
     text-align: center;
+    background: anti;
 }
 
 .lista-de-piratas .pirata.pirata.selecionado {
-    box-shadow: 0px 0px 24px 5px antiquewhite;
+    box-shadow: 0px 0px 05px rgba(225, 215, 250, 0.185);
 }
 
 .pirata-selecionado {
     text-align: center;
     max-height: 530px;
-}
+        }
 
 .pirata-selecionado .nome-pirata{
     border-bottom: antiquewhite;
     letter-spacing: 10px;
+    background: rgba(250, 235, 215, 0.5);
 }
 
-.pirata-selecionado .descricao-pirata{
+.pirata-selecionado .descricao-pirata {
     font-size: 16px;
     line-height: 22px;
     text-align: center;
     margin-top: 20px;
     width: 420px;
+    background: rgba(250, 235, 215, 0.9);
+    border: 2px solid #8B4513; /* Cor da borda (marrom escuro) */
+    border-radius: 10px; /* Borda arredondada */
+    padding: 10px; /* Espaçamento interno para o conteúdo */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Sombra para destacar a caixa */
 }
