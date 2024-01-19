@@ -25,51 +25,82 @@
         <section class="piratas">
             <h1 class="titulo"> Selecione um pirata </h1>
             <ul class="lista-de-piratas">
-                <li class="pirata selecionado" id="luffy">
+
+                <!-- Luffy -->
+                <li class="pirata selecionado" id="01-luffy" data-name="Monkey D. Luffy" 
+                    data-description="Luffy é o protagonista da série e o capitão dos Chapéus de Palha. Ele busca se tornar o Rei dos Piratas e tem o poder da Gomu Gomu no Mi, uma Akuma no Mi que lhe concede elasticidade e um corpo de borracha. Adora carne quase tanto quanto gosta de seus companheiros.">
                     <img src="/src/imagens/01-luffy.jpg" alt="Monkey D. Luffy">
                 </li>
-                <li class="pirata" id="zoro">
+                
+                <!-- Zoro -->
+                <li class="pirata" id="02-zoro" data-name="Roronoa Zoro" 
+                    data-description="Antigamente conhecido como 'O caçador de piratas, Zoro' é o espadachim do bando e o primeiro membro a se juntar a Luffy. Ele é extremamente habilidoso com sua técnica 'Santoryu' de três espadas e almeja se tornar o melhor espadachim do mundo.">
                     <img src="/src/imagens/02-zoro.jpg" alt="Roronoa Zoro">
                 </li>
-                <li class="pirata" id="nami">
+    
+                <!-- Nami -->
+                <li class="pirata" id="03-nami" data-name="Nami" 
+                    data-description="Nami é a navegadora dos Chapéus de Palha. Ela possui grande habilidade em navegação e meteorologia. Além de ser uma exelente cartógrafa é também uma ladra, pois foi roubando piratas que ela conheceu o seu hoje capitão Luffy.">
                     <img src="/src/imagens/03-nami.jpg" alt="Nami">
                 </li>
-                <li class="pirata" id="usopp">
+    
+                <!-- Usopp -->
+                <li class="pirata" id="04-usopp" data-name="Usopp" 
+                    data-description="Usopp é o atirador de longo alcance e o contador de histórias dos Chapéus de Palha. Ele é conhecido por suas histórias exageradas e tem uma habilidade excepcional com armas de fogo. Provavelmente o personagem mais 'humano' de toda obra">
                     <img src="/src/imagens/04-usopp.jpg" alt="Usopp">
                 </li>
-                <li class="pirata" id="sanji">
-                    <img src="/src/imagens/05-sanji.jpg" alt="Vinsmoke Sanji">
+    
+                <!-- Sanji -->
+                <li class="pirata" id="05-sanji" data-name="Vinsmoke Sanji" 
+                    data-description="Sanji é o cozinheiro e lutador especializado em técnicas de chutes. Ele sonha em encontrar o All Blue, um lugar onde todos os tipos de peixes do mundo se reúnem, e por isso um cozinheiro teria à mão todos os ingredientes do mundo.">
+                    <img src="/src/imagens/05-sanji.jpg" alt="Sanji">
                 </li>
-                <li class="pirata" id="chopper">
+    
+                <!-- Chopper -->
+                <li class="pirata" id="06-chopper" data-name="Tony Tony Chopper" 
+                    data-description="Chopper é um rena que comeu a Hito Hito no Mi, concedendo-lhe a habilidade de se transformar em diferentes formas humanas. Ele é o médico do bando e foi diversas vezes confundido pela Marinha como pet do bando.">
                     <img src="/src/imagens/06-chopper.jpg" alt="Tony Tony Chopper">
                 </li>
-                <li class="pirata" id="robin">
+    
+                <!-- Robin -->
+                <li class="pirata" id="07-robin" data-name="Nico Robin" 
+                    data-description="Robin é a arqueóloga dos Chapéus de Palha. Ela comeu a Hana Hana no Mi, permitindo que ela reproduza partes do corpo em lugares diferentes. Desde criança possuía uma recompença por sua cabeça, e foi perseguida por ser a única sobrevivente de Ohara.">
                     <img src="/src/imagens/07-robin.jpg" alt="Nico Robin">
                 </li>
-                <li class="pirata" id="franky">
+    
+                <!-- Franky -->
+                <li class="pirata" id="08-franky" data-name="Franky" 
+                    data-description="Franky é o carpinteiro e engenheiro do bando, além de ser especializado em combate. Ele é conhecido por suas habilidades em construir e aprimorar navios e por ser um ciborgue, teve seu poster de procurado uma imagem do Sunny, navio dos Chapéus de Palha.">
                     <img src="/src/imagens/08-franky.jpg" alt="Franky">
                 </li>
-                <li class="pirata" id="brook">
+    
+                <!-- Brook -->
+                <li class="pirata" id="09-brook" data-name="Brook" 
+                    data-description="Brook é o músico esqueleto e espadachim dos Chapéus de Palha. Ele comeu a Yomi Yomi no Mi, concedendo-lhe uma segunda vida após a morte. Ele é também um hábil espadachim e possui poderes relacionados aos espíritos.">
                     <img src="/src/imagens/09-brook.jpg" alt="Brook">
                 </li>
-                <li class="pirata" id="jinbe">
+    
+                <!-- Jinbe -->
+                <li class="pirata" id="10-jinbe" data-name="Jinbe" 
+                    data-description="Jinbe é um homem-peixe e o timoneiro dos Chapéus de Palha. Jinbe é extremamente habilidoso em técnicas de Gyojin Karatê e é um aliado extremamente confiável. Antigamente um Shichibukai e também subordinado da imperatriz Big Mom.">
                     <img src="/src/imagens/10-jinbe.jpg" alt="Jinbe">
                 </li>
-
             </ul>
         </section>
 
         <section class="pirata-selecionado">
-            <img class="pirata-grande" src="/src/imagens/01-luffy.png" alt="Pirata Selecionado">
+            <img class="pirata-grande" 
+            src="/src/imagens/01-luffy.png" alt="Pirata Selecionado">
 
             <div class="informacoes-pirata">
                 <h2 class="nome-pirata" id="nome-pirata">Monkey D. Luffy</h2>
-                <p class="descricao-pirata" id="descricao-pirata">Protagonista da série, comeu a Gomu Gomu no Mi, que
-                    lhe rendeu um corpo de borracha. Deseja se tornar o rei dos piratas.</p>
+                <p class="descricao-pirata" id="descricao-pirata">Luffy é o protagonista da série e o capitão dos Chapéus de Palha. Ele busca se tornar o Rei dos Piratas e tem o poder da Gomu Gomu no Mi, uma Akuma no Mi que lhe concede elasticidade e um corpo de borracha. Adora carne quase tanto quanto gosta de seus companheiros.
+                </p>
             </div>
         </section>
 
     </main>
+    <script src="/src/js/index.js"></script>
 </body>
 
 </html>

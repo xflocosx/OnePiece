@@ -85,8 +85,8 @@ body::before{
     display: inline-block;
 }
 
-.lista-de-piratas .pirata.pirata.selecionado {
-    box-shadow: 0px 0px 05px rgba(225, 215, 250, 0.185);
+.lista-de-piratas .pirata.selecionado {
+    box-shadow: 0px 0px 24px 5px #fff;
 }
 
 .pirata-selecionado {
