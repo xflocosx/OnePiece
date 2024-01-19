@@ -12,7 +12,7 @@ ul {
 body {
     font-family: 'DM Serif Display', serif;
     background-color: rgb(10, 68, 212);
-    color: #512600;
+    color: #000000;
 }
 
 body::before{
@@ -76,9 +76,13 @@ body::before{
     letter-spacing: 8px;
     text-transform: uppercase;
     border-bottom: 1px solid antiquewhite;
-    width: 100%;
     text-align: center;
-    background: anti;
+    background: linear-gradient(to bottom, rgb(94, 185, 240), rgb(47, 103, 168)); /* Adicionei este padrão para ficar no mesmo estilo da logo, mas não sei se está bom. Lembrar de corrigir. */
+    border: 2px solid #000000;
+    border-radius: 10px;
+    padding: 12px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    display: inline-block;
 }
 
 .lista-de-piratas .pirata.pirata.selecionado {
@@ -91,9 +95,12 @@ body::before{
         }
 
 .pirata-selecionado .nome-pirata{
-    border-bottom: antiquewhite;
-    letter-spacing: 10px;
-    background: rgba(250, 235, 215, 0.5);
+    letter-spacing: 10px; /* Deixar deste tamanho até ver como fica com os outros piratas*/
+    background: rgba(250, 235, 215, 0.9);
+    border: 2px solid #8B4513; /* Adicionando o mesmo padrão da descrição no título */
+    border-radius: 10px;
+    padding: 2px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); 
 }
 
 .pirata-selecionado .descricao-pirata {
