@@ -8,8 +8,9 @@ Para ver os pôsteres de procurados, acesse a página de demonstração.
 Como Usar
 Clone este repositório em sua máquina local usando o comando:
 
-bash
-git clone https://github.com/xflocosx/OnePiece.git
+```bash
+git clone https://github.com/seu-usuario/one-piece-wanted-posters.git
+
 
 Abra o arquivo index.html em seu navegador preferido.
 
