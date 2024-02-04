@@ -27,7 +27,8 @@ Abra o arquivo **index.html** em seu navegador preferido.
 ## Conteúdo do Projeto
 
  - [ ] **HTML** (*index.html*): A estrutura da página web com informações sobre os personagens.
+ - [ ] **JavaScript** (*script.js*): Lógica para interatividade na seleção de personagens.
  - [ ] **CSS** (*styles.css*): Estilos para proporcionar uma experiência visual atraente.
 	 - (*reset.css*): Reseta o estilo da página antes mesmo dela abrir 
 	 - (*responsivo.css*): Realiza correções no layout da página dependendo do tamanho da tela
- - [ ] **JavaScript** (*script.js*): Lógica para interatividade na seleção de personagens.
+
