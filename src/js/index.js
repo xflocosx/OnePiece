@@ -1,7 +1,7 @@
 const piratas = document.querySelectorAll('.pirata');
 
 piratas.forEach((pirata) => {
-    pirata.addEventListener('click', () => {
+    pirata.addEventListener('mouseover', () => {
         
         if(window.innerWidth < 450) {
             window.scrollTo({top: 0, behavior: 'smooth'})
